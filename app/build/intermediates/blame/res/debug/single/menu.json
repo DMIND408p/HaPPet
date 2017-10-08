@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/menu/blank_menu.xml",
+        "source": "/Users/qingyunhe/Desktop/DogWIteration3/app/src/main/res/menu/blank_menu.xml"
+    },
+    {
+        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/menu/menu_plant_fragment.xml",
+        "source": "/Users/deepu/Downloads/DogWIteration3 2/app/src/main/res/menu/menu_plant_fragment.xml"
+    },
+    {
+        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/menu/menu_plant_fragment.xml",
+        "source": "/Users/qingyunhe/Desktop/DogWIteration3/app/src/main/res/menu/menu_plant_fragment.xml"
+    },
+    {
+        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/deepu/Downloads/DogWIteration3 2/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/menu/blank_menu.xml",
+        "source": "/Users/deepu/Downloads/DogWIteration3 2/app/src/main/res/menu/blank_menu.xml"
+    },
+    {
+        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/qingyunhe/Desktop/DogWIteration3/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/non_toxic_detail_pic"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@color/cardview_light_background" />
+
+        <TextView
+            android:id="@+id/non_toxic_common_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/non_toxic_detail_pic"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="Christmas cactus"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/non_toxic_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/non_toxic_botanical_name"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="description"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <View
+            android:id="@+id/non_toxic_divider1"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_below="@+id/non_toxic_description"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/listDivider" />
+
+
+        <TextView
+            android:id="@+id/non_toxic_botanical_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/non_toxic_common_name"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="houseToxicCommName"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/text_specific_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/non_toxic_divider1"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="Specific Information"
+            android:layout_marginBottom="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_specific_information"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="45dp"
+            android:text="Plant type: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/non_toxic_plant_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_specific_information"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@+id/textView6"
+            android:text="Inhouse Plant"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="45dp"
+            android:text="Flower color: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/non_toxic_flower_color"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="45dp"
+            android:text="Booming time: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/non_toxic_booming_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/non_toxic_flower_color"
+            android:layout_marginBottom="25dp"
+            android:layout_toEndOf="@+id/textView12"
+            android:text="Winter"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <View
+            android:id="@+id/non_toxic_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_below="@+id/textView12"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/non_toxic_flower_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/non_toxic_plant_type"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/textView9"
+            android:layout_marginEnd="45dp"
+            android:text="Red"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:id="@+id/textVIew1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/non_toxic_divider"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="Care Tips"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light needs: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textVIew1"
+            />
+
+        <TextView
+            android:id="@+id/non_toxic_light_need"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="45dp"
+            android:text="Low Light condition"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/textVIew1"
+            android:layout_toEndOf="@+id/textView1"/>
+
+        <TextView
+            android:id="@+id/textVIew2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textView1"/>
+
+        <TextView
+            android:id="@+id/non_toxic_water"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="45dp"
+            android:text="Moist but never soggy"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/textView1"
+            android:layout_toEndOf="@+id/textVIew2"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suitable temperature: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textVIew2"/>
+
+        <TextView
+            android:id="@+id/non_toxic_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="45dp"
+            android:text="60 - 70 F"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/textVIew2"
+            android:layout_toEndOf="@+id/textView2"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fertilizer: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="45dp"
+            android:layout_below="@+id/textView2"/>
+
+        <TextView
+            android:id="@+id/non_toxic_fertilizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="45dp"
+            android:text="During the growing season"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_below="@+id/textView2"
+            android:layout_toEndOf="@+id/textView4"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9c9c9c">
+
+
+        <RelativeLayout
+            android:id="@+id/top_calendar_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#fff"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+
+            <TextView
+                android:id="@+id/monthTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Aug-2017"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/cast_intro_overlay_background_color"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:id="@+id/previousButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:background="#fff"
+                android:clickable="true"
+                app:srcCompat="@drawable/icons8_left_25" />
+
+            <ImageButton
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:background="#fff"
+                android:clickable="true"
+                app:srcCompat="@drawable/icons8_right_25" />
+        </RelativeLayout>
+
+        <compactcalendarview.CompactCalendarView
+            android:id="@+id/compactcalendar_view"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/top_calendar_navigation_bar"
+            android:layout_marginBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:compactCalendarBackgroundColor="#fff"
+            app:compactCalendarCurrentDayBackgroundColor="#84f9e23a"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="#8b3ec7f5"
+            app:compactCalendarMultiEventIndicatorColor="#fff"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextColor="#000000"
+            app:compactCalendarTextSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/compactcalendar_view"
+            android:id="@+id/indicator"
+            android:background="#fff"
+            android:layout_marginBottom="2dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/selected_day_pic"
+                android:layout_marginStart="18dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selected day"
+                android:layout_marginStart="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageView"
+                android:textColor="#6e6e6e"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today"
+                android:textColor="#6e6e6e"
+                android:layout_alignBaseline="@+id/textView17"
+                android:layout_alignBottom="@+id/textView17"
+                android:layout_centerHorizontal="true"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView17"
+                android:layout_alignBottom="@+id/textView17"
+                android:layout_centerHorizontal="true"
+                android:text="Records"
+                android:textColor="#6e6e6e"
+                android:layout_toEndOf="@+id/imageView10"
+                android:layout_marginStart="5dp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/today_pic"
+                android:layout_marginStart="14dp"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_toEndOf="@+id/textView17" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/record_pic"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/textView18" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/indicator"
+            android:background="#fff"
+            android:paddingBottom="20dp"
+            android:id="@+id/relativeLayout">
+
+            <ImageView
+                android:id="@+id/leashImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/leash" />
+
+            <View
+                android:id="@+id/calendar_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/leashImageView"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/diaryImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/diary"
+                android:layout_below="@+id/calendar_divider"
+                android:layout_alignStart="@+id/leashImageView" />
+
+
+            <View
+                android:id="@+id/calendar_divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/diaryImageView"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/foodImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dog_food"
+                android:layout_below="@+id/calendar_divider2"
+                android:layout_alignStart="@+id/diaryImageView" />
+
+            <View
+                android:id="@+id/calendar_divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/foodImageView"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_alignParentEnd="true" />
+
+
+            <ImageView
+                android:id="@+id/groomImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/foodImageView"
+                android:layout_below="@+id/calendar_divider3"
+                app:srcCompat="@drawable/grooming" />
+            <View
+                android:id="@+id/calendar_divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/groomImageView"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"
+                android:layout_alignStart="@+id/textView15"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/injectionImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/injection"
+                android:layout_below="@+id/calendar_divider4"
+                android:layout_alignStart="@+id/groomImageView" />
+
+            <TextView
+                android:id="@+id/vaccinationPlanTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccination Plan"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_alignTop="@+id/injectionImageView"
+                android:layout_alignStart="@+id/textView14" />
+
+            <TextView
+                android:layout_marginBottom="4dp"
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grooming"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_above="@+id/calendar_divider4"
+                android:layout_alignStart="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Record feeding"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp"
+                android:layout_above="@+id/calendar_divider3"
+                android:layout_alignStart="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diary"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_above="@+id/calendar_divider2"
+                android:layout_alignStart="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Walked my dog"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_alignBottom="@+id/walkDogSwitch"
+                android:layout_toEndOf="@+id/leashImageView" />
+
+            <Switch
+                android:id="@+id/walkDogSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:switchTextAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignTop="@+id/leashImageView"
+                android:layout_alignParentEnd="true" />
+
+            <Switch
+                android:id="@+id/groomSwith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchTextAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignTop="@+id/textView14"
+                android:layout_alignStart="@+id/diaryImageButton" />
+
+            <TextView
+                android:id="@+id/groomSwithText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_alignBottom="@+id/groomImageView"
+                android:layout_toStartOf="@+id/groomSwith" />
+
+            <ImageButton
+                android:id="@+id/diaryImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pen"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_toEndOf="@+id/walkDogSwitchText" />
+
+            <ImageButton
+                android:id="@+id/feedingImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pen"
+                android:layout_alignBottom="@+id/textView13"
+                android:layout_alignStart="@+id/groomSwith" />
+
+            <TextView
+                android:id="@+id/walkDogSwitchText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/cast_expanded_controller_background_color"
+                android:textSize="18sp"
+                android:layout_alignBottom="@+id/walkDogSwitch"
+                android:layout_toStartOf="@+id/walkDogSwitch" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

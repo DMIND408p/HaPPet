@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_body"
+            android:icon="@drawable/body_language"
+            android:title="Body Language" />
+        <item
+            android:id="@+id/nav_toxic"
+            android:icon="@drawable/plantinhouse_menu_icon"
+            android:title="Toxic Plant" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/calender"
+            android:title="Dog Calendar" />
+
+        <item
+            android:id="@+id/Breed"
+            android:icon="@drawable/doggy_menu_icon"
+             android:title="Breed Details" />
+
+        <item android:title="Finder">
+            <menu>
+                <item
+                    android:id="@+id/nav_dPark"
+                    android:title="Dog Friendly Parks"
+                    android:icon="@drawable/map_menu_icon"/>
+                <item
+                    android:title="Veterinary Care"
+                    android:id="@+id/nav_vetCare"
+                    android:icon="@drawable/vet"/>
+            </menu>
+        </item>
+    </group>
+</menu>

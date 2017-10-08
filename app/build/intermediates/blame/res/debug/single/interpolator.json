@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/Users/deepu/.android/build-cache/589a722617f9a37e662b9ac7fb6011c1fd49f839/output/res/interpolator/mr_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/Users/qingyunhe/.android/build-cache/169c4d9e4f265ae23b2585a2232d76334abee770/output/res/interpolator/mr_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/Users/qingyunhe/.android/build-cache/169c4d9e4f265ae23b2585a2232d76334abee770/output/res/interpolator/mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/Users/deepu/.android/build-cache/589a722617f9a37e662b9ac7fb6011c1fd49f839/output/res/interpolator/mr_linear_out_slow_in.xml"
+    }
+]

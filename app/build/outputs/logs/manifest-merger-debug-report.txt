@@ -1,0 +1,503 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+uses-permission-sdk-23
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:7:5-73
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:7:29-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:10:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/deepu/.android/build-cache/e8af9bb6204d5b97d4182c9cdb7f79af43618102/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /Users/deepu/.android/build-cache/61bc03652e3e3ae96dac46f394271687f3dfd69b/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/045c99331d7915c4e761841e30c7c1ea1ca06bbf/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/deepu/.android/build-cache/beb2a8f9f6383160be3b01fb3cc69001b437e548/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#com.google.android.providers.gsf.permisson.READ_GSERVICES
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:11:5-96
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:11:22-94
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:13:22-78
+application
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:16:5-43:19
+MERGED from [com.google.android.gms:play-services:10.0.1] /Users/deepu/.android/build-cache/64b56baa5ea46f6b33069ad6073d0df5948f9fb3/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/deepu/.android/build-cache/e8af9bb6204d5b97d4182c9cdb7f79af43618102/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /Users/deepu/.android/build-cache/dbfaf2021c87b466eac90bd054bbc5d058f56c9f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/deepu/.android/build-cache/589a722617f9a37e662b9ac7fb6011c1fd49f839/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/deepu/.android/build-cache/d478c578bdca229e9052f35d3dd5e00ffdfd2bc3/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /Users/deepu/.android/build-cache/e2b3441741d21dbca6bac03864cfab1e517a49e3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.0.1] /Users/deepu/.android/build-cache/f7e8a6ddbfa14eed6d8926ac2d88827181b1c97b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] /Users/deepu/.android/build-cache/a1da937831b9dc668a5a48c9b89ecdd7f38760f4/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/deepu/.android/build-cache/74854e758db82fa01f9bdc429c2da8bf94fd92af/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] /Users/deepu/.android/build-cache/7f2da8f231546ba3a7d7a42baa692cc0be62fdd9/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.0.1] /Users/deepu/.android/build-cache/6db68edf932b792fac9251479621db83de6c1496/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] /Users/deepu/.android/build-cache/8c0112194080d711a780890eca2a527a73f20bf8/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] /Users/deepu/.android/build-cache/5214cf4667cbe65251a1e36d1374af7674904477/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/deepu/.android/build-cache/4f1783ea1bd05b267057c3f3d10dedda6982b7d0/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] /Users/deepu/.android/build-cache/5ee7386e77355214e42b2c5a9400a8dd9f912ec6/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/deepu/.android/build-cache/f9cf4d507ee503631410489fc96475839f07dd0d/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /Users/deepu/.android/build-cache/61bc03652e3e3ae96dac46f394271687f3dfd69b/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] /Users/deepu/.android/build-cache/075e93c51ee9f23ff8908d7e5f9f861e5efd32dc/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /Users/deepu/.android/build-cache/17bdc47fe195e268a9c9a01b99145ef02eee42d6/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] /Users/deepu/.android/build-cache/2550b2466cd7f6f2f352610ed73c5deca40d01a4/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] /Users/deepu/.android/build-cache/b4e4f2b9ed4a2e85d64c5870912fb5b1824a4425/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] /Users/deepu/.android/build-cache/34df2b850a0e5855f10239ba677c82b1d54b7e8b/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/045c99331d7915c4e761841e30c7c1ea1ca06bbf/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] /Users/deepu/.android/build-cache/33eee7e2c0beccc7ebf080759b34cfad86d5808a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] /Users/deepu/.android/build-cache/28d913749bd6bc770123fa1a869a414c4dd94c55/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/deepu/.android/build-cache/beb2a8f9f6383160be3b01fb3cc69001b437e548/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /Users/deepu/.android/build-cache/f5af61450b27c7b5d960e2883d3095d912f98330/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:design:25.3.1] /Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/deepu/.android/build-cache/3c9d213b8988a1ea55c982ffa79a7d02f59532aa/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/deepu/.android/build-cache/388c6c8a0c3748d29c49fb61751d9d6a28dc28b7/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/deepu/.android/build-cache/3d2a936a751c0b47fd309712b8348b807118ba0a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deepu/.android/build-cache/53b6fd98eaa5502c39979c117b44dab2ebaea918/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/deepu/.android/build-cache/dca7963fb4e892ed1aa8e8f678fd0f2421cb12d5/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/deepu/.android/build-cache/c6151f60ad00bac5844af0d30f6e085762618bdd/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:10.0.1] /Users/deepu/.android/build-cache/1a4004a697aafe6e9d0a0dad22687699a467a815/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/deepu/.android/build-cache/c1174f3de4317aeba20109486d70a4441a1e5bac/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/deepu/.android/build-cache/8fa43099021e389652574f2569f68cfbdf134d3f/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/deepu/.android/build-cache/5c75b07cd2e0b9500bb50302d482d0039943b6e3/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/deepu/.android/build-cache/deef9f3d52c42de5d3c86c0cac6b6a2128de3e5a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/deepu/.android/build-cache/565fb2724ff7bb3214c0bacf651548e08ef99b22/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/deepu/.android/build-cache/4611fa997c3ece6104f015afd6ee09d8bbdff722/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/deepu/.android/build-cache/5f302020f3207abea8c18f269da98d958eaedc1e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/deepu/.android/build-cache/f600efc07103502f0f27ee171a8d2d56e5a0f57a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/deepu/.android/build-cache/701a36ebce88a7dfe4b2c592fa141a8d51cdc2ba/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:18:9-41
+	android:supportsRtl
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:21:9-35
+	android:roundIcon
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:20:9-48
+	android:allowBackup
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:19:9-43
+activity#com.example.deepu.dogwiteration1.SplashScreen
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:22:9-29:20
+	android:theme
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:23:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.deepu.dogwiteration1.MainActivity
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:30:9-40:20
+	android:label
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:32:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:34:13-52
+	android:configChanges
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:35:13-74
+	android:theme
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:31:13-41
+meta-data#android.app.searchable
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:37:13-39:54
+	android:resource
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:39:17-51
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:38:17-54
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:41:9-42:70
+	android:value
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:42:13-68
+	android:name
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:41:20-65
+uses-feature#0x00020000
+ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:44:5-46:34
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/deepu/.android/build-cache/beb2a8f9f6383160be3b01fb3cc69001b437e548/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:45:9-41
+	android:required
+		ADDED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml:46:9-32
+uses-sdk
+INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.0] /Users/deepu/.android/build-cache/a04ea62f049ab38c5f5ec8978d9e6b3dd561ecd3/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:10.0.1] /Users/deepu/.android/build-cache/64b56baa5ea46f6b33069ad6073d0df5948f9fb3/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] /Users/deepu/.android/build-cache/d644bf6f1134fc679ae11954250563050b3d01c1/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/deepu/.android/build-cache/e8af9bb6204d5b97d4182c9cdb7f79af43618102/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] /Users/deepu/.android/build-cache/9b60f48aed5aa99c1bcdddf81fcf6cd6e52da61b/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /Users/deepu/.android/build-cache/dbfaf2021c87b466eac90bd054bbc5d058f56c9f/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/deepu/.android/build-cache/589a722617f9a37e662b9ac7fb6011c1fd49f839/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/deepu/.android/build-cache/d478c578bdca229e9052f35d3dd5e00ffdfd2bc3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /Users/deepu/.android/build-cache/e2b3441741d21dbca6bac03864cfab1e517a49e3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:10.0.1] /Users/deepu/.android/build-cache/f7e8a6ddbfa14eed6d8926ac2d88827181b1c97b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] /Users/deepu/.android/build-cache/a1da937831b9dc668a5a48c9b89ecdd7f38760f4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/deepu/.android/build-cache/74854e758db82fa01f9bdc429c2da8bf94fd92af/output/AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] /Users/deepu/.android/build-cache/7f2da8f231546ba3a7d7a42baa692cc0be62fdd9/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:10.0.1] /Users/deepu/.android/build-cache/6db68edf932b792fac9251479621db83de6c1496/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] /Users/deepu/.android/build-cache/8c0112194080d711a780890eca2a527a73f20bf8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] /Users/deepu/.android/build-cache/5214cf4667cbe65251a1e36d1374af7674904477/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/deepu/.android/build-cache/4f1783ea1bd05b267057c3f3d10dedda6982b7d0/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] /Users/deepu/.android/build-cache/5ee7386e77355214e42b2c5a9400a8dd9f912ec6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/deepu/.android/build-cache/f9cf4d507ee503631410489fc96475839f07dd0d/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] /Users/deepu/.android/build-cache/944cf694a6eac67b975b90225ca51bc83220e8e5/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /Users/deepu/.android/build-cache/61bc03652e3e3ae96dac46f394271687f3dfd69b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] /Users/deepu/.android/build-cache/075e93c51ee9f23ff8908d7e5f9f861e5efd32dc/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /Users/deepu/.android/build-cache/17bdc47fe195e268a9c9a01b99145ef02eee42d6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] /Users/deepu/.android/build-cache/2550b2466cd7f6f2f352610ed73c5deca40d01a4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] /Users/deepu/.android/build-cache/b4e4f2b9ed4a2e85d64c5870912fb5b1824a4425/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] /Users/deepu/.android/build-cache/bef3ea76c4812860b0ad052a4c14e6dcaaaa01f4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] /Users/deepu/.android/build-cache/34df2b850a0e5855f10239ba677c82b1d54b7e8b/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/045c99331d7915c4e761841e30c7c1ea1ca06bbf/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] /Users/deepu/.android/build-cache/33eee7e2c0beccc7ebf080759b34cfad86d5808a/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:10.0.1] /Users/deepu/.android/build-cache/9998d37b8d3e217a66d8729e3d2ebff290e5c87f/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] /Users/deepu/.android/build-cache/28d913749bd6bc770123fa1a869a414c4dd94c55/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/deepu/.android/build-cache/beb2a8f9f6383160be3b01fb3cc69001b437e548/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /Users/deepu/.android/build-cache/f5af61450b27c7b5d960e2883d3095d912f98330/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:design:25.3.1] /Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/deepu/.android/build-cache/3c9d213b8988a1ea55c982ffa79a7d02f59532aa/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/deepu/.android/build-cache/388c6c8a0c3748d29c49fb61751d9d6a28dc28b7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/deepu/.android/build-cache/70056f355f123461eb01ed1fee1fd23a341123cd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/deepu/.android/build-cache/3d2a936a751c0b47fd309712b8348b807118ba0a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deepu/.android/build-cache/53b6fd98eaa5502c39979c117b44dab2ebaea918/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage:10.0.1] /Users/deepu/.android/build-cache/69b66e51c6745ddaa4db99aac9430690b7d56682/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] /Users/deepu/.android/build-cache/5a5d3b471e729ab9a39fef8d150c3f65be6539e2/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/deepu/.android/build-cache/dca7963fb4e892ed1aa8e8f678fd0f2421cb12d5/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] /Users/deepu/.android/build-cache/716147ebcf3d6eb585c7e59853fa3ae7ec5fbd1b/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /Users/deepu/.android/build-cache/4638f9e6760cebc136eb9451922fef1168637a70/output/AndroidManifest.xml:3:5-42
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/deepu/.android/build-cache/c6151f60ad00bac5844af0d30f6e085762618bdd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:10.0.1] /Users/deepu/.android/build-cache/1a4004a697aafe6e9d0a0dad22687699a467a815/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/deepu/.android/build-cache/c1174f3de4317aeba20109486d70a4441a1e5bac/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/deepu/.android/build-cache/8fa43099021e389652574f2569f68cfbdf134d3f/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/deepu/.android/build-cache/5c75b07cd2e0b9500bb50302d482d0039943b6e3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /Users/deepu/.android/build-cache/deef9f3d52c42de5d3c86c0cac6b6a2128de3e5a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/deepu/.android/build-cache/565fb2724ff7bb3214c0bacf651548e08ef99b22/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/deepu/.android/build-cache/4611fa997c3ece6104f015afd6ee09d8bbdff722/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/deepu/.android/build-cache/5f302020f3207abea8c18f269da98d958eaedc1e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/deepu/.android/build-cache/f600efc07103502f0f27ee171a8d2d56e5a0f57a/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/deepu/.android/build-cache/701a36ebce88a7dfe4b2c592fa141a8d51cdc2ba/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deepu/Downloads/DogWIteration3 2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/deepu/.android/build-cache/e8af9bb6204d5b97d4182c9cdb7f79af43618102/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/deepu/.android/build-cache/74854e758db82fa01f9bdc429c2da8bf94fd92af/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/deepu/.android/build-cache/4f1783ea1bd05b267057c3f3d10dedda6982b7d0/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/deepu/.android/build-cache/f9cf4d507ee503631410489fc96475839f07dd0d/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/045c99331d7915c4e761841e30c7c1ea1ca06bbf/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/deepu/.android/build-cache/beb2a8f9f6383160be3b01fb3cc69001b437e548/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:19:22-64
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/deepu/.android/build-cache/c77cc9de5a07fbdea73746158a499f18e16ca47d/output/AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/deepu/.android/build-cache/e8af9bb6204d5b97d4182c9cdb7f79af43618102/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/045c99331d7915c4e761841e30c7c1ea1ca06bbf/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/deepu/.android/build-cache/e8af9bb6204d5b97d4182c9cdb7f79af43618102/output/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/deepu/.android/build-cache/17a9c02b17f1ba648384e896b1efd3600abfc4e5/output/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/deepu/.android/build-cache/3de9e08fa731d5501e2fbd743063f07658b52c08/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/deepu/.android/build-cache/dd060ab10c70ef6c9d0e9e9d3f515feb09b6bd4b/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/deepu/.android/build-cache/0e0ba802a209115cabd61961842defc87bfc14f7/output/AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/deepu/.android/build-cache/4f1783ea1bd05b267057c3f3d10dedda6982b7d0/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/deepu/.android/build-cache/f9cf4d507ee503631410489fc96475839f07dd0d/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/deepu/.android/build-cache/4f1783ea1bd05b267057c3f3d10dedda6982b7d0/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/deepu/.android/build-cache/a6d41b57dd5a0f9e5f48ab1fbcc50c41c9b74765/output/AndroidManifest.xml:30:27-75
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/deepu/.android/build-cache/3c9d213b8988a1ea55c982ffa79a7d02f59532aa/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/deepu/.android/build-cache/388c6c8a0c3748d29c49fb61751d9d6a28dc28b7/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/deepu/.android/build-cache/70056f355f123461eb01ed1fee1fd23a341123cd/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/deepu/.android/build-cache/3d2a936a751c0b47fd309712b8348b807118ba0a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/deepu/.android/build-cache/c6151f60ad00bac5844af0d30f6e085762618bdd/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/deepu/.android/build-cache/deef9f3d52c42de5d3c86c0cac6b6a2128de3e5a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/deepu/.android/build-cache/565fb2724ff7bb3214c0bacf651548e08ef99b22/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/deepu/.android/build-cache/4611fa997c3ece6104f015afd6ee09d8bbdff722/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/deepu/.android/build-cache/5f302020f3207abea8c18f269da98d958eaedc1e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/deepu/.android/build-cache/f600efc07103502f0f27ee171a8d2d56e5a0f57a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/deepu/.android/build-cache/701a36ebce88a7dfe4b2c592fa141a8d51cdc2ba/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/deepu/.android/build-cache/135efce6090fb0ade390f18f9734b79672d0acd4/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/deepu/.android/build-cache/d1b6fab02ee21d4f5cbf6771261a5db9c0f5f591/output/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/deepu/.android/build-cache/89f3d8572a3ba0b5291da5683fd64f4adddb7567/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/deepu/.android/build-cache/1e078758ee2bec2fb546a5e3b5b54e42ee88f894/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/deepu/.android/build-cache/5c75b07cd2e0b9500bb50302d482d0039943b6e3/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/deepu/.android/build-cache/5c75b07cd2e0b9500bb50302d482d0039943b6e3/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/deepu/.android/build-cache/5c75b07cd2e0b9500bb50302d482d0039943b6e3/output/AndroidManifest.xml:20:20-65

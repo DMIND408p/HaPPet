@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "849015089766",
+    "firebase_url": "https://databaseplant-8e253.firebaseio.com",
+    "project_id": "databaseplant-8e253",
+    "storage_bucket": "databaseplant-8e253.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849015089766:android:1ee07cc183d2e5cc",
+        "android_client_info": {
+          "package_name": "com.example.deepu.dogwiteration1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849015089766-01e3ufej0i6ps3tabs6ubc40r4g3vilg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deepu.dogwiteration1",
+            "certificate_hash": "79c30266c22368732864f30ddf81e1a90d2b1317"
+          }
+        },
+        {
+          "client_id": "849015089766-a0ai9squ7nh2macil0d2p88tngbvdt5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ0-rwln8-NXgU9Wrh_GtsvedmoSxJy9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849015089766-a0ai9squ7nh2macil0d2p88tngbvdt5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepu.dogwiteration1.BreedActivity.BreedDesc">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/breeding_img"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_marginBottom="25dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@color/cardview_light_background" />
+        <TextView
+            android:id="@+id/breeding_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breeding_img"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="AustralianSilkyTerrier"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fooding_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/breeding_name"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="Daily Food Cost"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fooding_cost"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="45dp"
+            android:text="Energy Level: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/ereging_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fooding_cost"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@+id/textView16"
+            android:text="High"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="45dp"
+            android:text="Grooming Info: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="45dp"
+            android:text="Suitablity To Children: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/children_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grooming_info"
+            android:layout_marginBottom="25dp"
+            android:layout_toEndOf="@+id/textView22"
+            android:text="Low"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+        <View
+            android:id="@+id/breed_detail_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:layout_below="@+id/textView22"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:background="?android:attr/listDivider" />
+        <TextView
+            android:id="@+id/grooming_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ereging_level"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/textView19"
+            android:text="Once a week"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breed_detail_divider"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="45dp"
+            android:text="Breed Description: "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/breed_descpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginStart="45dp"
+            android:text="Breed Decsription everything"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
