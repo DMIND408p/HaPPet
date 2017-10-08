@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "outputFile": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -31,49 +31,6 @@
                 },
                 "from": {
                     "file": "/Users/deepu/.android/build-cache/589a722617f9a37e662b9ac7fb6011c1fd49f839/output/res/values-sw720dp-v13/values-sw720dp-v13.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 124,
-                        "endColumn": 68,
-                        "endOffset": 188
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 68,
-                    "endOffset": 119
-                },
-                "from": {
-                    "file": "/Users/qingyunhe/.android/build-cache/169c4d9e4f265ae23b2585a2232d76334abee770/output/res/values-sw720dp-v13/values-sw720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 68,
-                        "endOffset": 119
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 124,
-                    "endColumn": 68,
-                    "endOffset": 188
-                },
-                "from": {
-                    "file": "/Users/qingyunhe/.android/build-cache/169c4d9e4f265ae23b2585a2232d76334abee770/output/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

@@ -1,30 +1,6 @@
 [
     {
-        "outputFile": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 103,
-                    "endOffset": 154
-                },
-                "from": {
-                    "file": "/Users/qingyunhe/.android/build-cache/9953b35ded8ce8a529aabae503d989683d3f9f4e/output/res/values-en-rSG/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 244,
-                        "endColumn": 99,
-                        "endOffset": 343
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+        "outputFile": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
         "map": [
             {
                 "to": {

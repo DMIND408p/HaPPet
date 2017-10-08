@@ -66,7 +66,7 @@ public class breed_details extends Fragment {
         listViewBreed = (ListView) view.findViewById(R.id.breed_list);
         breedList = new ArrayList<>();
 
-      //  searchBrView = (SearchView) view.findViewById(R.id.searchBreed);
+//        searchBrView = (SearchView) view.findViewById(R.id.searchBreed);
         listViewBreed.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

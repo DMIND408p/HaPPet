@@ -2,89 +2,103 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="COLD"
+    build-mode="FULL"
     density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507447960034"
-    token="-6072922047317659570"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1507456707175"
+    token="-240662769911330948"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="6612" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1906" />
     <task
         name="verifier"
-        duration="0" />
+        duration="335" />
 
     <artifact
-        location="/Users/deepu/Downloads/DogWIteration3 2/app/build/outputs/apk/app-debug.apk"
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1507447470529"
+        timestamp="1507456707175"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1507447807098"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1507447960034"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/deepu/Downloads/DogWIteration3 2/app/build/outputs/apk/app-debug.apk"
+            location="/Users/deepu/Desktop/DogWIteration3 2 2/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

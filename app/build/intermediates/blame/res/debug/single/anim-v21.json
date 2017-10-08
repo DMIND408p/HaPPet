@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/0b9880655ad59aab50c6dfa0e7beef86314f8f56/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/0b9880655ad59aab50c6dfa0e7beef86314f8f56/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
         "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]

@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.SearchView;
 
 import com.example.deepu.dogwiteration1.FirebaseClient;
 import com.example.deepu.dogwiteration1.PlantRelevant.PlantDetailPage.FragmentHouseToxicDetail;
@@ -26,7 +25,6 @@ public class HouseToxicTabFragment extends Fragment {
     private FirebaseClient firebaseClient;
     private View houseToxicPlantView;
     private ProgressBar progressBar;
-    private SearchView searchView;
     final static String DB_URL = "https://databaseplant-8e253.firebaseio.com/";
 
     @Nullable
@@ -34,7 +32,6 @@ public class HouseToxicTabFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         houseToxicPlantView = inflater.inflate(R.layout.house_toxic_tab_fragment, container, false);
         plantListView = (ListView) houseToxicPlantView.findViewById(R.id.houseToxicPlantListView);
-        searchView = (SearchView) houseToxicPlantView.findViewById(R.id.house_toxic_search);
         plantListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

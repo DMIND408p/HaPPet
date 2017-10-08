@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/Users/qingyunhe/.android/build-cache/ed0d5605ed047975d345af1980313328639f2396/output/res/raw/gtm_analytics"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/raw/google_style.json",
-        "source": "/Users/deepu/Downloads/DogWIteration3 2/app/src/main/res/raw/google_style.json"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/raw/google_style.json",
-        "source": "/Users/qingyunhe/Desktop/DogWIteration3/app/src/main/res/raw/google_style.json"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
         "source": "/Users/deepu/.android/build-cache/34df2b850a0e5855f10239ba677c82b1d54b7e8b/output/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/raw/google_style.json",
+        "source": "/Users/deepu/Desktop/DogWIteration3 2 2/app/src/main/res/raw/google_style.json"
     }
 ]

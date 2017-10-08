@@ -3,18 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:id="@+id/search_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <SearchView
-            android:id="@+id/house_toxic_search"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:queryHint="Search name, clinical sign and toxic level"/>
-    </RelativeLayout>
-
     <ProgressBar
         android:id="@+id/house_toxic_progress_bar"
         style="?android:attr/progressBarStyleLarge"

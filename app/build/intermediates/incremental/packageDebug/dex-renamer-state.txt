@@ -1,7 +1,7 @@
-#Sun Oct 08 18:32:48 AEDT 2017
-base.0=/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_03b9493e667915acad3bda8f02241c2f8dc2c0fb
+#Sun Oct 08 20:59:30 AEDT 2017
+base.0=/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a3064f2c6f213c485f14a4babf96d5fe1540a6e
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_93f9668969440134cc0fb76f5556374aad167474/classes.dex
-base.1=/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_93f9668969440134cc0fb76f5556374aad167474
-file.0=/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_03b9493e667915acad3bda8f02241c2f8dc2c0fb/classes.dex
+file.1=/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1079aac219e89559090f01ccdfefb48e116bc58c/classes.dex
+base.1=/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1079aac219e89559090f01ccdfefb48e116bc58c
+file.0=/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a3064f2c6f213c485f14a4babf96d5fe1540a6e/classes.dex

@@ -18,7 +18,14 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.example.deepu.dogwiteration1.BreedActivity.BreedBlak;
+import com.example.deepu.dogwiteration1.BreedActivity.BreedDesc;
+import com.example.deepu.dogwiteration1.CalendarReminder.FragmentDiary;
+import com.example.deepu.dogwiteration1.CalendarReminder.FragmentFeedingRecord;
+import com.example.deepu.dogwiteration1.CalendarReminder.FragmentVaccinationPlan;
 import com.example.deepu.dogwiteration1.Home.home_blank;
+import com.example.deepu.dogwiteration1.PlantRelevant.PlantDetailPage.FragmentHouseToxicDetail;
+import com.example.deepu.dogwiteration1.PlantRelevant.PlantDetailPage.FragmentNonToxicDetail;
+import com.example.deepu.dogwiteration1.PlantRelevant.PlantDetailPage.FragmentWildToxicDetail;
 import com.example.deepu.dogwiteration1.drawerFragment.CalendarReminder;
 import com.example.deepu.dogwiteration1.drawerFragment.DogPark;
 import com.example.deepu.dogwiteration1.drawerFragment.Plant;
@@ -105,24 +112,37 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        assert drawer != null;
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-            return;
-        } else if(doubleBackToExitPressedOnce) {
-            super.onBackPressed();
-            return;
-        }
-        this.doubleBackToExitPressedOnce = true;
-        Toast.makeText(this,"Press again to exit",Toast.LENGTH_LONG).show();
+        Fragment f1 = this.getSupportFragmentManager().findFragmentById(R.id.hh_screen);
+        Fragment f2 = this.getSupportFragmentManager().findFragmentById(R.id.plant_main_page);
+        Fragment f3 = this.getSupportFragmentManager().findFragmentById(R.id.calendar_reminder_main_page);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                doubleBackToExitPressedOnce = false;
+        if(f1 instanceof BreedDesc){
+            super.onBackPressed();
+        } else if(f2 instanceof FragmentHouseToxicDetail || f2 instanceof FragmentNonToxicDetail || f2 instanceof FragmentWildToxicDetail){
+            super.onBackPressed();
+        } else if(f3 instanceof FragmentFeedingRecord || f3 instanceof FragmentDiary || f3 instanceof FragmentVaccinationPlan){
+            super.onBackPressed();
+        }
+        else{
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            assert drawer != null;
+            if (drawer.isDrawerOpen(GravityCompat.START)) {
+                drawer.closeDrawer(GravityCompat.START);
+                return;
+            } else if(doubleBackToExitPressedOnce) {
+                super.onBackPressed();
+                return;
             }
-        },2000);
+            this.doubleBackToExitPressedOnce = true;
+            Toast.makeText(this,"Press again to exit",Toast.LENGTH_LONG).show();
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    doubleBackToExitPressedOnce = false;
+                }
+            },1000);
+        }
     }
 
 

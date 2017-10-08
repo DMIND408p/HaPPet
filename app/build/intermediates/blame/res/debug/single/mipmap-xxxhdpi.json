@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
-        "source": "/Users/qingyunhe/Desktop/DogWIteration3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/deepu/Desktop/DogWIteration3 2 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
-        "source": "/Users/deepu/Downloads/DogWIteration3 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/qingyunhe/Desktop/DogWIteration3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/deepu/Downloads/DogWIteration3 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/deepu/Desktop/DogWIteration3 2 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     }
 ]

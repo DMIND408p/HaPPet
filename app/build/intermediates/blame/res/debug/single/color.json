@@ -1,210 +1,106 @@
 [
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/color/design_error.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/9953b35ded8ce8a529aabae503d989683d3f9f4e/output/res/color/wallet_primary_text_holo_light.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/0b9880655ad59aab50c6dfa0e7beef86314f8f56/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/Users/deepu/.android/build-cache/9998d37b8d3e217a66d8729e3d2ebff290e5c87f/output/res/color/wallet_secondary_text_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/9953b35ded8ce8a529aabae503d989683d3f9f4e/output/res/color/wallet_secondary_text_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/Users/deepu/.android/build-cache/9998d37b8d3e217a66d8729e3d2ebff290e5c87f/output/res/color/wallet_primary_text_holo_light.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/ee390ec0daea6ffa3d5cf5f8e1f726c2a94999ab/output/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
         "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
         "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_search_url_text.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/5a96f8acb112fe74b93bd0e8268a7a55fc33b9a3/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/deepu/Downloads/DogWIteration3 2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/Users/deepu/.android/build-cache/9998d37b8d3e217a66d8729e3d2ebff290e5c87f/output/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
         "source": "/Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/0b9880655ad59aab50c6dfa0e7beef86314f8f56/output/res/color/design_error.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/deepu/.android/build-cache/47cbb3fec9988fde79fc97bb1add70ab364e3140/output/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/qingyunhe/Desktop/DogWIteration3/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/qingyunhe/.android/build-cache/ee390ec0daea6ffa3d5cf5f8e1f726c2a94999ab/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/deepu/.android/build-cache/f0d1baecd4c1c5e0e808e840e5f4c3f9196dbd20/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/deepu/.android/build-cache/9998d37b8d3e217a66d8729e3d2ebff290e5c87f/output/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/Users/deepu/Desktop/DogWIteration3 2 2/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/deepu/.android/build-cache/f86c136dafabd736308612251dbdc95ba814c870/output/res/color/abc_tint_btn_checkable.xml"
     }
 ]
